@@ -106,9 +106,8 @@ const AddProduct = () => {
 								<input type="text" className="form-control" name="category" value={category} onChange={data => handleChange(data)} placeholder="category" autoFocus />
 							</div>
 							<div className="form-group col-md-4">
-								<label htmlFor="imageUpload">Image Upload</label>
-								<input type="file" className="form-control" name="imageFile" onChange={(e) => setImageFile(e.target.files[0])} />
-								<button type="button" className="btn btn-primary col" onClick={convertImage} > Upload </button>
+								<label htmlFor="itemName">Item Name</label>
+								<input type="text" className="form-control" name="itemName" value={itemName} onChange={data => handleChange(data)} placeholder="item Name" />
 							</div>
 						</div>
 
@@ -117,10 +116,13 @@ const AddProduct = () => {
 								<label htmlFor="amount">Amount</label>
 								<input type="number" className="form-control" name="amount" value={amount} onChange={data => handleChange(data)} placeholder="amount" />
 							</div>
+
 							<div className="form-group col-md-4">
-								<label htmlFor="itemName">Item Name</label>
-								<input type="text" className="form-control" name="itemName" value={itemName} onChange={data => handleChange(data)} placeholder="item Name" />
+								<label htmlFor="imageUpload">Image Upload</label>
+								<input type="file" className="form-control" name="imageFile" onChange={(e) => setImageFile(e.target.files[0])} />
+								<button type="button" className="btn btn-primary col" onClick={convertImage} > Upload </button>
 							</div>
+
 							<div className="form-group col-md-6">
 								<label htmlFor="details">Details</label>
 								<textarea rows="2"
