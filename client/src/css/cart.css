@@ -1,0 +1,28 @@
+.cart {
+  width: 100vw;
+  height: 93vh;
+  overflow: scroll;
+}
+
+.cart .container img {
+  height: 25em;
+}
+
+.cart .container .cards {
+  padding: 1em;
+  border: 1px solid lightgrey;
+}
+
+.cart .container p {
+  padding: 0.3em;
+  font-size: large;
+}
+
+.cart .container .content{
+  line-height: 3em;
+  border-bottom: 1px solid lightgray;
+}
+
+.cart .container .row a{
+  text-decoration: none;
+}

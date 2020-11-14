@@ -1,0 +1,26 @@
+.addProduct {
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.addProduct .justify {
+  justify-content: space-evenly;
+}
+.addProduct .container .row div input,
+.addProduct .container .row div textarea {
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  border-radius: 1px;
+  box-shadow: none;
+}
+
+.addProduct .container .row div input:focus,
+.addProduct .container .row div textarea:focus {
+  border-bottom: 1px solid #4ea1f9;
+}
+
+.addProduct .container .row div input:focus::placeholder,
+.addProduct .container .row div textarea:focus::placeholder {
+  color: transparent !important;
+}

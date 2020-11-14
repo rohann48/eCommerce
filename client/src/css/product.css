@@ -1,0 +1,68 @@
+.products {
+  width: 100vw;
+  height: 92vh !important;
+  overflow-y: scroll;
+}
+
+.products .container .row.align {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.products .container img {
+  height: 12em;
+}
+
+.products .container .cards {
+  padding: 2em;
+}
+
+.products .container .cards:hover {
+  border: 1px solid lightgrey;
+}
+
+.products .container p {
+  padding: 1em;
+  font-size: large;
+}
+
+.products .hide {
+  display: none;
+}
+
+.products .cards:hover .hide {
+  display: block;
+  border: 1px solid #f9f6f6e3;
+  border-radius: 8px;
+  background: #f9f6f6e3;
+  width: 50%;
+  height: auto;
+  position: absolute;
+  top: 6em;
+  left: 0em;
+  line-height: 1.5em;
+  word-break: break-all;
+}
+
+.products .container .notFound{
+  text-align: center;
+  color: red;
+  text-transform: capitalize;
+}
+
+ul .right .badges {
+  display: inline-block;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+ul .right .badges:after {
+  content: attr(data-count);
+  padding: 3px 5px 4px 5px;
+  background: #ff6600;
+  border-radius: 20em;
+  color: white;
+  border: 1px solid #ff6600;
+  font-weight: bold;
+}
