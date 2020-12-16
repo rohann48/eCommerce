@@ -6,6 +6,7 @@ import Product from './pages/products/product'
 import AddProduct from './pages/products/addProduct'
 import Cart from './pages/cart'
 import Checkout from './pages/checkout'
+import Demo from './pages/demo'
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
     <Fragment>
       <section>
         <Switch>
-          <Route exact path="/" component={Product}></Route>
+          <Route exact path="/" component={Demo}></Route>
+          <Route exact path="/product" component={Product}></Route>
           <Route exact path="/add" component={AddProduct}></Route>
           <Route exact path="/cart" component={Cart}></Route>
           <Route exact path="/checkout" component={Checkout}></Route>

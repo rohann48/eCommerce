@@ -234,3 +234,8 @@ ul.list-style .right{
   margin: 1em;
   border-radius: 12px;
 }
+
+.chartjs-render-monitor {
+  width: 18em !important;
+  height: 9em !important;
+}
