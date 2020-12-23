@@ -235,7 +235,21 @@ ul.list-style .right{
   border-radius: 12px;
 }
 
-.chartjs-render-monitor {
+.chartjs-render-monitor.pieSize {
   width: 18em !important;
   height: 9em !important;
+}
+
+.bar {
+  width: 36em !important;
+  /* height: 18em !important; */
+}
+.html2canvas-container { width: 3000px !important; height: 3000px !important; }
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
 }
